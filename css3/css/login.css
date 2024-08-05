@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-principal {
+    width: 100vw;
+    height: 100vh;
+}
+.container-world {
+    width: 100%;
+    height: 250px;
+    border-radius: 0 0 40px 40px;
+    background-color: #3D2B59;
+}
+.container-world img {
+    margin-top: -40px;
+    width: 100%;
+    height: 300px;
+}
+.container-inputs {
+    margin-top: 40px;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-inputs h3 {
+    font-size: 25px;
+    font-weight: 200;
+    color: #3D2B59;
+}
+.container-inputs span {
+    font-weight: 600;
+}
+.container-plane {
+    width: 250px;
+    position: absolute;
+    left: 18%;
+    top: 2%;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.309));
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #3D2B59;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8%;
+    border-color: #8A6DE0;
+    border-radius: 5px;
+    outline: none;
+    color: gray;
+}
+.form-group button {
+    padding: 10px 20px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-login {
+    background-color: #3D2B59;
+    color: white;
+}
+.btn-login:hover {
+    background-color: #5c4e72;
+    color: white;
+}
+.btn-back {
+    background-color: #666568;
+    color: white;
+}
+.btn-back:hover {
+    background-color: gray;
+    color: white;
+}
+.help {
+    color: gray;
+    text-decoration: none;
+}
