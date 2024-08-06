@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 10px 5px 10px;
+}
+/*Container superior*/
+.container-superior {
+    margin: 38px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-superior img {
+    width: 40px;
+    height: 20px;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: row;
+    font-weight: bold;
+}
+.container-superior-cuadro1 {
+    width: 100px;
+    height: 50px;
+    background-color: #ff9100;
+    color:white;
+}
+.container-superior-cuadro2 {
+    width: 200px;
+    height: 50px;
+    background-color: #b47625;
+    color:white;
+}
+.container-superior-cuadro3 {
+    width: 100px;
+    height: 50px;
+    background-color: #836236;
+    color:white;
+}
+.container-superior-cuadro4 {
+    width: 100px;
+    height: 50px;
+    background-color: #6e593f;
+    color:white;
+}
+.container-superior-cuadro5 {
+    width: 300px;
+    height: 50px;
+    background-color: #574b39;
+    color:white;
+}
+.container-superior-cuadro6 {
+    width: 100px;
+    height: 50px;
+    background-color: #3d382f;
+    color:white;
+}
+
+/*Container todos*/
+.container-inferior {
+    width: 95%;
+    height: 700px;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    border: 5px solid red;
+}
+.container-inferior img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.container-left {
+    width: 100%;
+    height: 100%;
+}
+.container-right {
+    width: 100%;
+    height: 100%;
+}
+.container-inf-cuadro1 {
+    width: 100%;
+    height: 27%;
+    background-color: #ff9100;
+    color:white;
+    align-content: center;
+}
+.container-inf-cuadro2 {
+    width: 100%;
+    height: 27%;
+    background-color: #b47625;
+    color:white;
+    align-content: center;
+}
+.container-inf-cuadro3 {
+    width: 100%;
+    height: 38%;
+    background-color: #836236;
+    color:white;
+    align-content: center;
+}
+.container-inf-cuadro4 {
+    width: 100%;
+    height: 8%;
+    background-color: #574734;
+    color:white;
+    align-content: center;
+}
+.container-inf-cuadro5 {
+    width: 100%;
+    height: 50%;
+    background-color: #363027;
+    color:white;
+    align-content: center;
+}
+.container-inf-cuadro6 {
+    width: 100%;
+    height: 50%;
+    background-color: #24221e;
+    color:white;
+    align-content: center;
+}
